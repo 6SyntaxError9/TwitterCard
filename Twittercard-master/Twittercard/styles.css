@@ -1,0 +1,83 @@
+body 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #000000;
+}
+
+.custom-box 
+{
+  width: 457px;
+  height: 138px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: left;
+  padding: 4px;
+  
+ 
+}
+
+.image-container 
+{
+  width: 130px;
+  height: 130px;
+  background-image: url('https://yt3.googleusercontent.com/tBEPr-zTNXEeae7VZKSZYfiy6azzs9OHowq5ZvogJeHoVtKtEw2PXSwzMBKVR7W0MI7gyND8=s176-c-k-c0x00ffffff-no-rj'); 
+  background-size: cover;
+  margin: 4px;
+}
+
+.content-container 
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-left: 10px;
+  
+    
+}
+
+
+
+.bold-text 
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 14px;
+}
+
+
+
+.regular-text 
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  padding-bottom: 24px;
+}
+
+
+.icon-container
+{
+  display: flex; 
+  align-items: center;
+  padding-left: 0px;
+}
+
+.fa-regular
+{
+  color: #858991;
+  padding-right: 14px;
+}
+
+.count 
+{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 15px;  
+  vertical-align: middle;
+  padding-right: 24px;
+  color: #858991;
+}
